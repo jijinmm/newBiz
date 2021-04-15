@@ -1,0 +1,311 @@
+{
+    "header":{
+      "logo":"assets/img/logo.png",
+      "heading":"string",
+      "Button":[
+          "Get Started",
+          "data"
+      ]
+    },
+    "menu":[
+        {
+           "menuName":"Home",
+           "path":"/home"
+        },
+        {
+            "menuName":"About Us",
+            "path":"/home"
+         },
+        {
+            "menuName":"Services",
+            "path":"/home"
+        },
+        {
+            "menuName":"Team",
+            "path":"/home"
+        },
+        {
+            "menuName":"DropeDown",
+            "path":"/home",
+            "subMenu":[
+                {
+                    "menuName":"submenu1",
+                    "path":"/home"
+                },
+                {
+                    "menuName":"submenu2",
+                    "path":"/home"
+                }
+            ]
+        },
+        {
+            "menuName":"Contact Us",
+            "path":"/home"
+        }
+    ]
+    ,
+    "testimonial":{
+        "heading":"Testimonials",
+        "grid":[
+            {
+                "name":"Saul Goodman",
+                "desigination":"Ceo &amp; Founder",
+                "avatar":"assets/img/testimonial-1.jpg",
+                "details":"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper."
+            },
+            {
+                "name":"Saul Goodman",
+                "desigination":"Ceo &amp; Founder",
+                "avatar":"assets/img/testimonial-1.jpg",
+                "details":"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper."
+            }
+        ]
+    },
+    "about":[
+
+        {
+            "columnStyle":"right-to-left",
+            "heading":"",
+            "ShortBreaf":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageUrl":{
+                "url":"assets/img/about-img.svg"
+            },
+            "gridTile":[
+                {
+                    "icon":"fa fa-shopping-bag",
+                    "title":"Eiusmod Tempor",
+                    "content":"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi"
+                },
+                {
+                    "icon":"fa fa-photo",
+                    "title":"Magni Dolores",
+                    "content":"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi"
+                },
+                {
+                    "icon":"fa fa-shopping-bag",
+                    "title":"Dolor Sitema",
+                    "content":"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi"
+                }
+            ]
+        },
+        {
+            "columnStyle":"left-to-right",
+            "heading":"Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.",
+            "ShortBreaf":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageUrl":{
+                "url":"assets/img/about-img.svg"
+            },
+            "gridTile":[
+                
+            ]
+        }
+    ],
+
+    "team":{
+        "heading":"Team",
+        "subHeading":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+        "isVisibile":true,
+        "grid":[
+            {
+               "image":"assets/img/team-1.jpg",
+               "name":"Walter White",
+               "desigination":"Chief Executive Officer",
+               "socialIcon":[
+                   {
+                       "Icon":"",
+                       "url":""
+                   },
+                   {
+                    "Icon":"",
+                    "url":""
+                },
+                {
+                    "Icon":"",
+                    "url":""
+                }
+               ]
+            },
+            {
+                "image":"assets/img/team-2.jpg",
+                "name":"Sarah Jhonson",
+                "desigination":"Product Manager",
+                "socialIcon":[
+                    {
+                        "Icon":"",
+                        "url":""
+                    },
+                    {
+                     "Icon":"",
+                     "url":""
+                 },
+                 {
+                     "Icon":"",
+                     "url":""
+                 }
+                ]
+             },
+             {
+                "image":"assets/img/team-3.jpg",
+                "name":"wwww",
+                "desigination":"Team Lead",
+                "socialIcon":[
+                    {
+                        "Icon":"",
+                        "url":""
+                    },
+                    {
+                     "Icon":"",
+                     "url":""
+                 },
+                 {
+                     "Icon":"",
+                     "url":""
+                 }
+                ]
+             },
+             {
+                "image":"assets/img/team-4.jpg",
+                "name":"Sudhina",
+                "desigination":"Team Lead",
+                "socialIcon":[
+                    {
+                        "Icon":"",
+                        "url":""
+                    },
+                    {
+                     "Icon":"",
+                     "url":""
+                 },
+                 {
+                     "Icon":"",
+                     "url":""
+                 }
+                ]
+             }
+        ]
+    },
+
+    "services":{
+        "heading":"Services",
+        "subHeading":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.",
+        "isVisibile":true,
+        "grid":[
+            {
+                "icon":"ion-ios-analytics-outline",
+                "heading":"Lorem Ipsum",
+                "content":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+                "iconColor":"#ff689b",
+                "url":""
+            },
+            {
+                "icon":"ion-ios-bookmarks-outline",
+                "heading":"Lorem Ipsum",
+                "content":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+                "iconColor":"#e9bf06",
+                "url":""
+            },
+            {
+                "icon":"ion-ios-paper-outline",
+                "heading":"Lorem Ipsum",
+                "content":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+                "iconColor":"#3fcdc7",
+                "url":""
+            },
+            {
+                "icon":"ion-ios-speedometer-outline",
+                "heading":"Lorem Ipsum",
+                "content":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+                "iconColor":"#41cf2e",
+                "url":""
+            },
+            {
+                "icon":"ion-ios-speedometer-outline",
+                "heading":"Lorem Ipsum",
+                "content":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+                "iconColor":"#d6ff22",
+                "url":""
+            },
+            {
+                "icon":"ion-ios-world-outline",
+                "heading":"Lorem Ipsum",
+                "content":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+                "iconColor":"#d6ff22",
+                "url":""
+            },
+            {
+                "icon":"ion-ios-clock-outline",
+                "heading":"Lorem Ipsum",
+                "content":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+                "iconColor":"#4680ff",
+                "url":""
+            }
+        ]
+    },
+    "client":{
+        "heading":"Our CLients",
+        "subHeading":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.",
+        "isVisible":true,
+        "grid":[
+            {
+                "image":"assets/img/clients/client-1.png"
+            },
+            {
+                "image":"assets/img/clients/client-2.png"
+            },
+            {
+                "image":"assets/img/clients/client-3.png"
+            },
+            {
+                "image":"assets/img/clients/client-4.png"
+            }
+        ]
+    },
+    "whyChooseUs":{
+        "heading":"Why choose us?",
+        "subHeading":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.",
+        "isVisible":true,
+        "grid":[
+            {
+                "icon":"fa fa-language",
+                "title":"Corporis dolorem",
+                "text":"Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.",
+                "button":"Read more",
+                "url":""
+            },
+            {
+                "icon":"fa fa-language",
+                "title":"Corporis dolorem",
+                "text":"Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.",
+                "button":"Read more",
+                "url":""
+            },
+            {
+                "icon":"fa fa-object-group",
+                "title":"Corporis dolorem",
+                "text":"Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.",
+                "button":"Read more",
+                "url":""
+            }
+
+        ],
+        "count":[
+            {
+                "count":"274",
+                "details":"Clients"
+            },
+            {
+                "count":"300",
+                "details":"Projects"
+            },
+            {
+                "count":"1,364",
+                "details":"Hours Of Support"
+            },
+            {
+                "count":"18",
+                "details":"Hard Workers"
+            }
+        ]
+    }
+    
+}
